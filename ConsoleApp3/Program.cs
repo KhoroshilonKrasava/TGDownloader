@@ -22,7 +22,7 @@ namespace TGD
 
         static void Main()
         {
-            string G;
+            
             var client = new TelegramBotClient("7074588692:AAF2wWRNb2bjsek7xHPmGCLOXLw5SssqkAc");
             client.StartReceiving(Update, Error);
             Console.ReadLine();
