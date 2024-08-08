@@ -15,13 +15,14 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace TGD
 {
-
+    // тестовый коммент
     class Program
     {
         YouTubeDownloader YTD = new YouTubeDownloader();
 
         static void Main()
         {
+            string G;
             var client = new TelegramBotClient("7074588692:AAF2wWRNb2bjsek7xHPmGCLOXLw5SssqkAc");
             client.StartReceiving(Update, Error);
             Console.ReadLine();
